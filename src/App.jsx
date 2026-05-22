@@ -1,7 +1,7 @@
 import { useState, useEffect, useRef, useCallback } from 'react';
 import './App.css';
 
-/* ─── CONSTANTS ─── */
+/* ─── 요소들 ─── */
 const FIELD_CFG = {
   focus: { min: 1, max: 120, suffix: '분', hint: '1 ~ 120분 사이로 설정 가능' },
   rest:  { min: 1, max: 90,  suffix: '분', hint: '1 ~ 90분 사이로 설정 가능'  },
